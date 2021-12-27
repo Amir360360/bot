@@ -2,7 +2,7 @@
 ob_start();
 error_reporting(0);
 flush();
-define('API_KEY','2116498824:AAHcUZEvhBvwwRPtNTBRaQFHv46bM85PNGQ');
+define('API_KEY','5068138048:AAGRs3jj14GVtQEztPliQoIBknD3X3s-37o');
 function WSBot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
     $ch = curl_init();
